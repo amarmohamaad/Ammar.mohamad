@@ -1,12 +1,12 @@
 const certificates=[
 ["01","Microsoft","Introduction to C++ Programming","Professional Certificate","https://coursera.org/verify/professional-cert/LP6PXRP69JLV"],
-["02","Microsoft / C++","Programming in C++","Certificate","https://coursera.org/verify/8ZB8B46F6HM6"],
+["02","Simplilearn","Programming in C++","Certificate","https://coursera.org/verify/8ZB8B46F6HM6"],
 ["03","Google","AI Fundamentals","Specialization","https://coursera.org/verify/specialization/6N4CO3G4ZUU7"],
 ["04","Google","Accelerate Your Job Search with AI","Certificate","https://coursera.org/verify/C3BL4TP5OIQZ"],
-["05","Microsoft","Success at Work · AI Skills Festival 2026","LinkedIn verification","https://www.linkedin.com/in/%D8%B9%D9%85%D8%A7%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-ba4823394"],
+["05","LinkedIn learning","Success at Work · AI Skills Festival 2026","LinkedIn verification","https://www.linkedin.com/in/%D8%B9%D9%85%D8%A7%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-ba4823394"],
 ["06","Edraak","Introduction to AI & Generative AI","Certificate","https://programs.edraak.org/learn/verify-certificate/ab69051cb62640199b3689cd9fb1f045/?lang=ar"],
 ["07","DeepLearning.AI","AI for Everyone","LinkedIn verification","https://www.linkedin.com/in/%D8%B9%D9%85%D8%A7%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-ba4823394"],
-["08","Dubai AI","One Million AI Experts","Certificate","https://omp.dub.ai/certificate/IIHDEru4NE"]
+["08","Dubai government","One Million AI Experts","Certificate","https://omp.dub.ai/certificate/IIHDEru4NE"]
 ];
 const grid=document.getElementById("certGrid");
 grid.innerHTML=certificates.map(c=>`<article class="cert-card reveal"><span class="num">${c[0]}</span><span class="provider">${c[1]}</span><h3>${c[2]}</h3><p>${c[3]}</p><a class="verify" target="_blank" rel="noopener" href="${c[4]}">تحقق من الشهادة <b>↗</b></a></article>`).join("");
