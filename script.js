@@ -6,7 +6,8 @@ const certificates=[
 ["05","LinkedIn learning","Success at Work · AI Skills Festival 2026","LinkedIn verification","https://www.linkedin.com/in/%D8%B9%D9%85%D8%A7%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-ba4823394"],
 ["06","Edraak","Introduction to AI & Generative AI","Certificate","https://programs.edraak.org/learn/verify-certificate/ab69051cb62640199b3689cd9fb1f045/?lang=ar"],
 ["07","DeepLearning.AI","AI for Everyone","LinkedIn verification","https://www.linkedin.com/in/%D8%B9%D9%85%D8%A7%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-ba4823394"],
-["08","Dubai government","One Million AI Experts","Certificate","https://omp.dub.ai/certificate/IIHDEru4NE"]
+["08","Dubai government","One Million AI Experts","Certificate","https://omp.dub.ai/certificate/IIHDEru4NE"],
+["09","IBM","Java Programming for Beginners","Certificate","https://www.coursera.org/account/accomplishments/verify/PPT9SPZRUA4V?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"]
 ];
 const grid=document.getElementById("certGrid");
 grid.innerHTML=certificates.map(c=>`<article class="cert-card reveal"><span class="num">${c[0]}</span><span class="provider">${c[1]}</span><h3>${c[2]}</h3><p>${c[3]}</p><a class="verify" target="_blank" rel="noopener" href="${c[4]}">تحقق من الشهادة <b>↗</b></a></article>`).join("");
